@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 import lombok.*;
 
 @Entity
-@Table(name = "uart_sim_db")
+@Table(name = "sensor_data")
 @Data
 @Builder
 @AllArgsConstructor
