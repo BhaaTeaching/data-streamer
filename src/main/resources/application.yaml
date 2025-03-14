@@ -11,3 +11,4 @@ spring:
       ddl-auto: update  # Options: create | update | validate | none
     show-sql: true
     database-platform: org.hibernate.dialect.MySQL8Dialect
+runtime: ${RUNTIME:2000}
