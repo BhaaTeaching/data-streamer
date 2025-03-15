@@ -44,7 +44,6 @@ services:
     ports:
       - '3306:3306'
     command: --default-authentication-plugin=mysql_native_password
-    platform: linux/amd64  # ✅ Ensures compatibility on Apple M1/M2 (ARM)
     volumes:
       - mysql_data:/var/lib/mysql
 
